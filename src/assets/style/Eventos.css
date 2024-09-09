@@ -1,0 +1,18 @@
+ .contendor__imagenes__eventos{
+/* height: 100%; */
+overflow-y: auto;
+
+} 
+
+@media (max-width: 500px) {
+    .contendor__imagenes__eventos {
+      grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
+      gap: 5px; /* Reduce el espacio entre imágenes */
+    margin-top: 20%;
+    }
+    
+    .contendor__imagenes__eventos img {
+      width: 100%; /* Asegura que las imágenes ocupen todo el ancho disponible */
+      height: auto; /* Mantiene la proporción de las imágenes */
+    }
+  }
