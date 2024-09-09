@@ -34,3 +34,9 @@ display: relative;
     height: 100%;
     object-fit: contain;
   }
+
+  .bandera_inicio{
+    position: absolute;
+    bottom: 10px;
+  left: 10px;
+  }
